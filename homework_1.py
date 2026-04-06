@@ -1,7 +1,6 @@
 import flet as ft 
 def main(page:ft.Page):
     count=0
-    
     text_hello=ft.Text(value="Нажато 0 раз")
     
     def on_click(e):
